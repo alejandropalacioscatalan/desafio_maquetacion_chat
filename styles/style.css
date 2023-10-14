@@ -38,6 +38,7 @@
   width: 200px;
   border-radius: 7px;
   font-size: 1rem;
+  transition: background-color 0.3s linear;
 }
 
 .boton-nuevo-chat:hover {
@@ -78,6 +79,7 @@
   display: flex;
   gap: 10px;
   width: 80px;
+  transition: height 0.3s linear;
 }
 
 .sidebar hr {
@@ -136,11 +138,16 @@
   padding: 10px;
   cursor: pointer;
   user-select: none;
+  transition: background-color 0.3s linear;
 }
 
 .sidebar_list .sidebar_item:hover {
   background-color: rgb(221, 215, 215);
   color: black;
+}
+
+.avatar_container {
+  transition: height 0.3s linear;
 }
 
 .sidebar_item:hover {
@@ -161,6 +168,10 @@
 .user_details_container:hover {
   background-color: rgb(221, 215, 215);
   color: black;
+}
+
+.icono_avatar {
+  transition: font-size 0.2s linear;
 }
 
 .icono_avatar:hover {
